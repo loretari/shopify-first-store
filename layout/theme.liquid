@@ -3,7 +3,7 @@
   <head>
     {{ content_for_header }}
   </head>
-
+{{ theme.suffix }}
   <body class="demo" -{{ template.name }}>
     {%- if settings.cart_type == 'drawer' -%}
       {%- render 'cart-drawer' -%}
